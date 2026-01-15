@@ -39,3 +39,7 @@ docker compose up -d
 ```
 ./kafka-console-producer.sh --topic sample-topic --bootstrap-server broker:29092
 ```
+- Describe the topic,
+```
+./kafka-topics.sh --bootstrap-server broker:29092 --describe
+```

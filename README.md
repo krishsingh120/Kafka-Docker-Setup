@@ -21,6 +21,12 @@ docker compose up -d
 ./kafka-topics.sh --create --topic sample-topic --bootstrap-server broker:29092
 ```
 
+- To fetch a list of topics in Kafka,
+
+```
+./kafka-topics.sh --bootstrap-server broker:29092 --list
+```
+
 - To start consumer on a topic,
 
 ```
